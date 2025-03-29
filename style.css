@@ -14,7 +14,7 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  background-image: url("https://cdn.glitch.global/3b26eeaa-0102-4b65-b0f3-4283c762b315/cloud-computing-logistics-2017-1000x640.jpg?v=1735695786093");
+  background-image: url("/assets/background.jpg");
 }
 
 nav {
