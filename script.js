@@ -1,14 +1,14 @@
-let numerObrazka = 1;
-slajder();
-function slajder() {
+let imageNumber = 1;
+slider();
+function slider() {
   const images = document.getElementsByClassName("auto-image");
   for (let i = 0; i < images.length; i++) {
     images[i].style.display = "none";
   }
-  numerObrazka++;
-  if (numerObrazka > images.length) {
-    numerObrazka = 1;
+  imageNumber++;
+  if (imageNumber > images.length) {
+    imageNumber = 1;
   }
-  images[numerObrazka - 1].style.display = "block";
-  setTimeout(slajder, 2500);
+  images[imageNumber - 1].style.display = "block";
+  setTimeout(slider, 2500);
 }
